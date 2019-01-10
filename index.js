@@ -13,6 +13,7 @@
 		if ( !priority || priority < 0 ) {
 			priority = 10;
 		}
+
 		// Существует ли указанный action
 		if ( undefined === actions[ action_name ] ) {
 			actions[ action_name ] = [];
